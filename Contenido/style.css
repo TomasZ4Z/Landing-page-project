@@ -1,0 +1,30 @@
+body{
+   background-color: rgb(16, 108, 194);
+
+   
+}
+
+
+.contenedor1{
+display: flex;
+justify-content: space-around;
+
+}
+
+.links{
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+
+.part1{
+    color: beige;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
