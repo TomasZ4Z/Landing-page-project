@@ -1,12 +1,13 @@
 body{
-   background-color: rgb(152, 153, 155);
-
-   
+   background-color: rgb(248, 248, 248);
+   display: flex;
+   flex-direction: column; 
 }
 
 .contenedor1{
 display: flex;
 justify-content: space-around;
+background-color: rgb(15, 15, 90);
 }
 
 .links{
@@ -32,6 +33,8 @@ a {
     display: flex;
     justify-content: space-evenly;
     padding-top: 80px;
+    background-color: rgb(15, 15, 90);
+    padding-bottom: 80px;
 }
 .entrar{
     color: azure;
@@ -65,12 +68,18 @@ color: aliceblue;
     padding-bottom: 10px;
 }
 
+img {
+    border-radius: 10px;
+    border: solid black;
+}
+
+
+
 
 .contenedor3 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .part3 {
@@ -106,12 +115,19 @@ font-size: 25px;
    max-width: 100px
 }
 
+
+
+
 .contenedor4 {
+    background-color: rgb(87, 88, 88);
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 200px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
 }
 
 .part4 {
@@ -122,4 +138,44 @@ font-size: 25px;
 .part4-1{
     padding-left: 350px;
     font-weight: bold;
+}
+
+.contenedor5{
+    background-color: rgb(40, 40, 189);
+    display: flex; 
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-self: center;
+    border: solid rgba(133, 129, 129, 0.144);
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.part5{ 
+    display: flex;
+}
+
+.part5-1{
+    text-align: start;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 20px;
+    padding-right: 365px;
+}
+
+.part5-2{
+    padding-right: 60px;
+}
+
+
+
+
+.contenedor6{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(49, 8, 87);
 }
